@@ -52,16 +52,16 @@ if __name__== "__main__":
 
 
 def test_simple():
-    assert calculate('2**2') == '4'
+    assert calculate('12*12') == '144'
 
 def test_float():
-    assert abs(calculate('10*10', return_float = True) - 100) < 0.001
+    assert abs(calculate('12*12', return_float = True) - 144) < 0.001
 
 def test_error1():
     assert calculate('dsfdfsdggf43523') == 'Error1: The string you passed is invalid'
 
 def test_error2():
-    assert calculate('a') == 'Error2: The string you passed is not calculable'
+    assert calculate('carbon') == 'Error2: The string you passed is not calculable'
 
 def test_float2():
     assert calculate('mass of the moon in kg', return_float = True) == 7.3459e+22
