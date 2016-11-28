@@ -5,8 +5,8 @@ except ImportError:
     
 setup(
         name="CalCalc",
-        version=0.0.1,
-        description="'calculate' that evaluates any string passed to it"
+        version= 0.0.1,
+        description="'calculate' that evaluates any string passed to it",
         author="Jing Dai",
         author_email="jdai@berkeley.edu",
         url="https://github.com/flyflyjean/JingDai_AY250_HW10.git",
